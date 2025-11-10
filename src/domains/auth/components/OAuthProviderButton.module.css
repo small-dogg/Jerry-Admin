@@ -1,0 +1,36 @@
+.button {
+  width: 100%;
+  border-radius: 16px;
+  border: 1px dashed #d0d5dd;
+  padding: 14px 16px;
+  background: #f9fafb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  cursor: not-allowed;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.label {
+  font-weight: 600;
+  font-size: 15px;
+  color: #101828;
+}
+
+.description {
+  font-size: 13px;
+  color: #667085;
+}
+
+.badge {
+  font-size: 12px;
+  border-radius: 999px;
+  padding: 4px 10px;
+  background: rgba(16, 24, 40, 0.08);
+}
